@@ -1,0 +1,23 @@
+name: speech2text
+channels:
+- pytorch
+- defaults
+dependencies:
+- python==3.8
+- pip
+- pip:
+  - torch
+  - torchvision
+  - torchaudio
+  - wandb
+  - ipykernel
+  - sentencepiece
+  - pandas
+  - datasets
+  - python-dotenv
+  - huggingface-hub
+- numpy
+- tqdm
+- tensorboard
+- protobuf
+

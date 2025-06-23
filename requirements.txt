@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+wandb
+pandas
+datasets
+python-dotenv
+huggingface-hub
+numpy
+tqdm
+tensorboard
+protobuf
